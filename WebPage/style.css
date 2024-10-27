@@ -1,13 +1,13 @@
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #333;
-    color: white;
+    background-color: #333;  /* Dunkler Hintergrund */
+    color: #f8f9fa;  /* Ein angenehmeres Weiß */
     margin: 0;
     padding: 0;
+    line-height: 1.5;  /* 1,5 Zeilenabstand für den ganzen Text */
 }
 #sidebar {
-    background-color: black;
+    background-color: black;  /* Schwarzer Hintergrund für die Sidebar */
     width: 200px;
     height: 100vh;
     position: fixed;
@@ -16,18 +16,36 @@ body {
 #main-content {
     margin-left: 200px;
     padding: 20px;
+    box-sizing: border-box;  /* Stellt sicher, dass Padding und Border im Width enthalten sind */
+    text-align: justify;  /* Fügt Blocksatz hinzu */
 }
 ul {
     list-style-type: none;
     padding: 0;
 }
 li a {
-    color: white;
+    color: white;  /* Weiße Schrift für bessere Sichtbarkeit */
     text-decoration: none;
     display: block;
     padding: 8px;
     text-align: center;
+    transition: background-color 0.3s, color 0.3s;  /* Sanfte Übergänge für Hover-Effekte */
 }
 li a:hover {
-    background-color: #555;
+    background-color: #f8f9fa;  /* Helle Hintergrundfarbe beim Hover */
+    color: #333;  /* Dunkle Schriftfarbe beim Hover für hohen Kontrast */
+}
+a {
+    color: #4ea1d3;  /* Helle Blautönung für normale Textlinks */
+    text-decoration: none; /* Optional: Entfernt die Unterstreichung */
+}
+a:hover {
+    color: #d7efff; /* Noch hellere Blautönung beim Hover */
+    text-decoration: underline; /* Unterstreicht den Link beim Hover für bessere Sichtbarkeit */
+}
+
+@media (min-width: 768px) {  /* Media Query für Bildschirme breiter als 768px */
+    #main-content {
+        width: 50%;  /* Begrenzt den Text auf die linken 50% des verfügbaren Bereichs nach der Sidebar */
+    }
 }
