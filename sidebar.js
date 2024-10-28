@@ -20,7 +20,7 @@ document.getElementById('sidebar').innerHTML = `
         <li><a href="datenschutz.html">Datenschutz</a></li>
         <li style="height: 20px;"></li> <!-- Platzhalter -->
         <li><a href="index.html"><b>DUSTIN SCHARF</b></a></li>
-        <li><a href="mailto:dustin.scharf.info@gmail.com"><i>dustin.scharf.info@gmail.com</i></a></li>
+        <li style="font-size: 12px"><a href="mailto:dustin.scharf.info@gmail.com">dustin.scharf.info@gmail.com</a></li>
 <!--        <li><a href="https://instagram.com/dustin.scharf"><i>Instagram</i></a></li>-->
     </ul>
 `;
