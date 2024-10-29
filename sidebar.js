@@ -1,5 +1,5 @@
 document.getElementById('sidebar').innerHTML = `
-    <div style="height: 100vh; overflow-y: auto; display: flex; flex-direction: column; justify-content: space-between; padding: 0;">
+    <div style="height: 100%; overflow-y: auto; display: flex; flex-direction: column; justify-content: space-between; padding: 0;">
         <ul style="list-style-type: none; padding: 0; margin-bottom: 60px;">
             <li><a href="index.html" style="font-weight: bold; text-decoration: none;">Start</a></li>
             <li style="height: 20px;"></li> <!-- Platzhalter -->
