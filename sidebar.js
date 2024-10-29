@@ -36,7 +36,7 @@ document.getElementById('sidebar').innerHTML = `
         </ul>
         
         <!-- Fester Footer-Bereich mit Name, E-Mail, Impressum und Datenschutz -->
-        <div style="position: sticky; bottom: 0; background-color: white; padding: 10px 10px 25px; text-align: center;">
+        <div style="position: sticky; bottom: 0; background-color: white; padding: 10px 10px 25px;text-align: center;;">
             <a href="index.html" style="font-weight: bold; text-decoration: none;">DUSTIN SCHARF</a>
             <br>
             <small style="color: gray; font-size: 12px; text-decoration: none;">dustin.scharf.info@gmail.com</small>
