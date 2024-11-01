@@ -16,7 +16,7 @@ document.getElementById('sidebar').innerHTML = `
 
             <li><a href="projekt3.html" style="display: flex; flex-direction: column; align-items: center; padding: 10px; text-decoration: none;">
                 <span>Projekt 3</span>
-                <small style="color: gray; font-size: 12px; margin-top: 5px;">Facharbeit schneller schreiben</small>
+                <small style="color: gray; font-size: 12px; margin-top: 5px;">Facharbeit einfach schreiben</small>
             </a></li>
 
             <li><a href="projekt4.html" style="display: flex; flex-direction: column; align-items: center; padding: 10px; text-decoration: none;">
@@ -31,7 +31,7 @@ document.getElementById('sidebar').innerHTML = `
 
             <li style="height: 20px;"></li> <!-- Platzhalter -->
             
-            <li><a href="hilfe.html" style="font-weight: bold; text-decoration: none;">Bin am Ende und brauch Hilfe</a></li>
+            <li><a href="hilfe.html" style="font-weight: bold; text-decoration: none;">Hilfe</a></li>
             <li style="height: 20px;"></li> <!-- Platzhalter -->
         </ul>
         
