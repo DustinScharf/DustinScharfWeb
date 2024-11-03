@@ -3,16 +3,139 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Projekt 1</title>
+    <title>Projekt 2</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <div id="sidebar"></div>
     <div id="main-content">
-<!--        <h1>Projekt 1</h1>-->
-<!--        <p>Fülle das Formular aus...</p>-->
+        <h1>Projekt 1: ChatGPT testen</h1>
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScei02VSkETdcJPtCEyEfOFDULXs5DKIhyUhhphaSeVoCqMkg/viewform?embedded=true" width="100%" height="3000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <div id="chatgpt-test">
+            <p style="font-size: 16px;">Um ChatGPT auszuprobieren, kopiere einen der folgenden Beispiel-Prompts, öffne ChatGPT (mit dem Button unten) und gib ihn ein.</p>
+            <h3 style="margin-top: 25px; font-size: 18px;">Beispiel-Prompts:</h3>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd;">
+                    <span style="flex: 1; margin-right: 25px;"><em>Schreibe mir 10 mögliche Entschuldigungen, die ich meinem Lehrer sagen kann, weil ich zu spät bin.</em></span>
+                    <button onclick="navigator.clipboard.writeText('Schreibe mir 10 mögliche Entschuldigungen, die ich meinen Lehrer sagen kann, weil ich zu spät bin.')" style="padding: 8px 12px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">Kopieren</button>
+                </li>
+                <li style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd;">
+                    <span style="flex: 1; margin-right: 25px;"><em>Ich habe am Wochenende ein Picknick Date. Was kann ich vorbereiten, um die andere Person absolut von mir zu überzeugen?</em></span>
+                    <button onclick="navigator.clipboard.writeText('Ich habe am Wochenende ein Picknick Date. Was kann ich vorbereiten, um die andere Person absolut von mir zu überzeugen?')" style="padding: 8px 12px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">Kopieren</button>
+                </li>
+                <li style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #ddd;">
+                    <span style="flex: 1; margin-right: 25px;"><em>Mein Name ist DEIN-NAME, nenne mir ein paar Bsp wie ich mich auf Insta nennen könnte.</em></span>
+                    <button onclick="navigator.clipboard.writeText('Mein Name ist DEIN-NAME, nenne mir ein paar Bsp wie ich mich auf Insta nennen könnte.')" style="padding: 8px 12px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">Kopieren</button>
+                </li>
+                <li style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0;">
+                    <span style="flex: 1; margin-right: 25px;"><em>Mein Hobby ist DEIN-HOBBY. Was kann ich heute noch erleben, wenn jetzt gerade noch in der Schule sitze?</em></span>
+                    <button onclick="navigator.clipboard.writeText('Mein Hobby ist DEIN-HOBBY. Was kann ich heute noch erleben, wenn jetzt gerade noch in der Schule sitze?')" style="padding: 8px 12px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">Kopieren</button>
+                </li>
+            </ul>
+
+            <a href="https://chat.openai.com/" target="_blank" style="display: inline-block; margin: 15px 0; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease;">
+                ChatGPT öffnen
+            </a>
+
+        </div>
+
+        <hr>
+
+        <div style="text-align: justify;">
+            <!-- Überschrift -->
+            <h2>Kahoot-Quiz für eine gute Startnote</h2>
+
+            <!-- Erklärung -->
+            <p>Es folgt ein Kahoot-Quiz, bei dem ihr ChatGPT nutzen dürft und sollt!</p>
+            <p><strong>Öffnet am besten auf der linken Bildschirmhälfte ChatGPT und rechts Kahoot.</strong></p>
+            <p>Für jede Frage habt ihr 90sec Zeit. Öffne Kahoot mit dem Button unten und gib den Code von der Tafel ein.</p>
+            <p>Viel Spaß und Erfolg!</p>
+
+            <!-- Button zu Kahoot -->
+            <a href="https://kahoot.it" target="_blank" style="display: inline-block; margin: 15px 0; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease;">
+                Kahoot öffnen
+            </a>
+
+            <!-- Bewertungsbeschreibung -->
+            <p><strong>Je nach Platzierung könnt ihr eine gute Note erhalten, wie in der Tabelle beschreiben. Nutze unbedingt deinen vollen Namen. Die Note ist freiwillig.</strong></p>
+            <table style="width: 100%; border-collapse: collapse;">
+                <thead>
+                <tr>
+                    <th style="border: 1px solid #ddd; padding: 8px; background-color: #007bff;">Anzahl</th>
+                    <th style="border: 1px solid #ddd; padding: 8px; background-color: #007bff;">Note</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">1x</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">1</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">3x</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">2</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">5x</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">3</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px;">8x</td>
+                    <td style="border: 1px solid #ddd; padding: 8px;">4</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <!-- Hinweis zur Freiwilligkeit -->
+            <p style="margin-top: 15px; font-size: 14px; color: gray;">Die Bewertung ist freiwillig.</p>
+        </div>
+
+        <hr>
+
+        <div style="text-align: justify;">
+            <!-- Überschrift -->
+            <h2>Was denkst du über ChatGPT?</h2>
+
+            <!-- Erklärung -->
+            <p>Überlegt, wie mächtig ChatGPT ist, und ob man solche Technologien gesetzlich regeln oder sogar verbieten sollte.</p>
+            <p>Diskutiert gern mit euren Nachbar*innen über das Thema und notiert eure Gedanken.</p>
+            <p>3 von euch werden später ihre Texte vorlesen bzw. ihre Notizen präsentieren.</p>
+            <p><strong>Nutzt ChatGPT nicht für diesen Text oder Gedanken, sonst gibt es eine 6!</strong></p>
+
+            <!-- Textfeld für Schüler -->
+            <textarea name="studentInput" rows="6" cols="70" placeholder="Schreibe hier deinen Text..."></textarea>
+
+            <!-- Hinweis zur Verwendung anderer Tools -->
+            <p><i>Du kannst auch gern Word, ein Blatt Papier oder ein anderes Tool nutzen, um deine Gedanken zu notieren.</i></p>
+        </div>
+
+        <hr>
+
+        <div style="text-align: justify;">
+            <!-- Überschrift -->
+            <h2>Runde Jstris (Java Script Tetris) zum Abschluss</h2>
+
+            <!-- Erklärung -->
+            <p>Gib den Code von der Tafel in das Textfeld unten ein.</p>
+            <p>Öffne Jstris (Java Script Tetris) danach über den Button.</p>
+
+            <!-- Textfeld für den Code -->
+            <input type="text" id="gameCode" placeholder="Code hier eingeben..." style="margin-bottom: 10px; padding: 8px; width: 200px;">
+
+            <!-- Button zu Jstris -->
+            <a id="jstrisLink" href="https://jstris.jezevec10.com/join/" target="_blank" style="display: inline-block; margin: 15px 0; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background-color 0.3s ease;">
+                Spiel beitreten
+            </a>
+        </div>
+
+        <script>
+            // Funktion, um den Link zu aktualisieren, wenn der Code eingegeben wird
+            document.getElementById('gameCode').addEventListener('input', function() {
+                var code = this.value;
+                document.getElementById('jstrisLink').href = 'https://jstris.jezevec10.com/join/' + code;
+            });
+        </script>
+
+
     </div>
     <script src="sidebar.js"></script>
 </body>
