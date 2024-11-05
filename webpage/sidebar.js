@@ -10,6 +10,11 @@ document.getElementById('sidebar').innerHTML = `
                 <span>Präsentation</span>
                 <small style="color: gray; font-size: 12px; margin-top: 5px;">Präsi zum Download</small>
             </a></li>
+            
+            <li><a href="regeln.html" style="display: flex; flex-direction: column; align-items: center; padding: 10px; text-decoration: none;">
+                <span>Regeln</span>
+                <small style="color: gray; font-size: 12px; margin-top: 5px;">! Lernraum respektieren !</small>
+            </a></li>
 
             <li style="height: 1px; background-color: #ccc; margin: 10px;"></li> <!-- Divider -->
             
@@ -20,17 +25,17 @@ document.getElementById('sidebar').innerHTML = `
 
             <li><a href="projekt2.html" style="display: flex; flex-direction: column; align-items: center; padding: 10px; text-decoration: none;">
                 <span>Projekt 2</span>
-                <small style="color: gray; font-size: 12px; margin-top: 5px;">Facharbeit einfach schreiben</small>
+                <small style="color: gray; font-size: 12px; margin-top: 5px;">Facharbeit mit Word etc.</small>
             </a></li>
 
             <li><a href="projekt3.html" style="display: flex; flex-direction: column; align-items: center; padding: 10px; text-decoration: none;">
                 <span>Projekt 3</span>
-                <small style="color: gray; font-size: 12px; margin-top: 5px;">Zeugnisnote berechnen</small>
+                <small style="color: gray; font-size: 12px; margin-top: 5px;">01&FF Binär&Hex-Systeme</small>
             </a></li>
 
             <li><a href="projekt4.html" style="display: flex; flex-direction: column; align-items: center; padding: 10px; text-decoration: none;">
                 <span>Projekt 4</span>
-                <small style="color: gray; font-size: 12px; margin-top: 5px;">KI easy selbst coden</small>
+                <small style="color: gray; font-size: 12px; margin-top: 5px;">Zeit sparen mit Excel etc.</small>
             </a></li>
 
             <li style="height: 1px; background-color: #ccc; margin: 10px;"></li> <!-- Divider -->
